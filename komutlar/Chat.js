@@ -12,7 +12,7 @@ const cevaplar = [
 exports.run = function(client, message, args) {
    var soru = args.join(' ');
    var cevap = cevaplar[Math.floor(Math.random() * cevaplar.length)];
-   if(!soru) return message.reply('Bir Soru Sor. **Doğru Kullanım**: !8ball <soru>')
+   if(!soru) return message.reply('Bir Soru Sor. **Doğru Kullanım**: !chat <soru>')
    else message.channel.send(cevap)
 
 };
