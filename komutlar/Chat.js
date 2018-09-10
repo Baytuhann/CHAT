@@ -26,6 +26,6 @@ exports.conf = {
 
 exports.help = {
   name: 'Chat', 
-  description: '',
+  description: 'Soru Sor Cevaplasın ;)',
   usage: 'Chat' 
 };
