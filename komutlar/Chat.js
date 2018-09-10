@@ -24,8 +24,3 @@ exports.conf = {
   permLevel: 0 
 };
 
-exports.help = {
-  name: 'Chat', 
-  description: 'Soru Sor Cevaplasın ;)',
-  usage: 'Chat' 
-};
